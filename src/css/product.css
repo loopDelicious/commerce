@@ -1,0 +1,24 @@
+table {
+    width: 75%;
+}
+
+tr {
+    border-bottom: 1px solid var(--light-gray);
+    padding: 5px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.table-header {
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+img {
+    height: 160px;
+}
+

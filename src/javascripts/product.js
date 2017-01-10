@@ -29,7 +29,7 @@ class Product extends Component {
             return (
 
                 <tr key={i}>
-                    <td><img src={product.mainImage.ref} alt={product.name} /></td>
+                    <td><img classname='thumbnail' src={product.mainImage.ref} alt={product.name} /></td>
                     <td>{product.name}</td>
                     <td>{product.minPrice}</td>
                 </tr>
@@ -45,9 +45,9 @@ class Product extends Component {
                         <table>
                             <thead>
                                 <tr>
-                                    <td><h4>Image</h4></td>
-                                    <td><h4>Item</h4></td>
-                                    <td><h4>Price</h4></td>
+                                    <td><h4 className="table-header">Image</h4></td>
+                                    <td><h4 className="table-header">Item</h4></td>
+                                    <td><h4 className="table-header">Price</h4></td>
                                 </tr>
                             </thead>
                             <tbody>{productRows}</tbody>
