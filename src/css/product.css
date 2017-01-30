@@ -1,5 +1,10 @@
-table {
-    width: 75%;
+#wrapper {
+    width: 100%;
+}
+
+thead {
+    background-color: var(--dark);
+    color: var(--light-gray);
 }
 
 tr {
@@ -12,13 +17,24 @@ td {
 }
 
 .table-header {
-    color: var(--secondary-color);
     font-size: 24px;
-    font-weight: bolder;
-    margin: 20px;
+    margin: 20px 0;
+}
+
+#product-list {
+    /*margin-right: 50%;*/
+    width: 650px;
+    float: left;
+    display: block;
 }
 
 img {
     height: 160px;
 }
+
+.price:before {
+    content: "$"
+}
+
+
 

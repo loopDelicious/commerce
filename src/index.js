@@ -7,6 +7,7 @@ import './css/buttons.css';
 import './css/index.css';
 import './css/App.css';
 import './css/product.css';
+import './css/cart.css';
 
 ReactDOM.render(
   <App />,

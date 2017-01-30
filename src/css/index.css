@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.joyce-banner {
+    text-align: left;
+    width: 100%;
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--light-gray);
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 18px;
+    color: darkgray;
+    margin: 0 0 20px 20px;
+}
+
